@@ -1,0 +1,22 @@
+{
+   
+   "content_scripts": [ {
+      "js": [ "src/hook.js"],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Access the database from your google chrome dev tools.",
+   "devtools_page": "devtools-background.html",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/128.png",
+      "48": "icons/128.png"
+   },
+   "manifest_version": 2,
+   "name": "DBSole",
+   "permissions": [     "tabs", "http://localhost:9393/socket.io/socket.io.js"
+,"http://*/*", "https://*/*", "file://*" ,"http://localhost:9393/socket.io/socket.io.js"],
+   "version": "2.1.2",
+   "web_accessible_resources": [ "dbsole.html", "devtools-background.html", "src/backend.js" ]
+}

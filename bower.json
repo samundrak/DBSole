@@ -1,0 +1,21 @@
+{
+  "name": "dbsole",
+  "authors": [
+    "samundrak <samundrak@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery.terminal": "^0.11.5"
+  }
+}

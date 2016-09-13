@@ -17,6 +17,6 @@
    "name": "DBSole",
    "permissions": [     "tabs", "http://localhost:9393/socket.io/socket.io.js"
 ,"http://*/*", "https://*/*", "file://*" ,"http://localhost:9393/socket.io/socket.io.js"],
-   "version": "2.1.2",
+   "version": "1.0.0",
    "web_accessible_resources": [ "dbsole.html", "devtools-background.html", "src/backend.js" ]
 }

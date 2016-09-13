@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "jquery.terminal": "^0.11.5"
+    "jquery.terminal": "^0.11.5",
+    "jquery-jsonview": "https://github.com/yesmeck/jquery-jsonview.git#^1.2.3",
+    "lodash": "^4.15.0"
   }
 }

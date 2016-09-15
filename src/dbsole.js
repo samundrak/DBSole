@@ -78,7 +78,7 @@ jQuery($ => {
     }, {
         greetings: 'Google Chrome Database Extension ',
         name: 'db_sole',
-        height: 340,
+        height: 'auto',
         prompt: 'DBSole> '
     });
 });

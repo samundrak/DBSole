@@ -19,7 +19,7 @@ export default class Terminal {
         if (typeof  jsonValue !== 'object') {
             return this.output(jsonValue);
         }
-        
+
         this.term[this.outputType](`<div class="executionResponse"></div>`, {
             raw: true
         });
@@ -27,11 +27,12 @@ export default class Terminal {
         let $executionResponse = $(".executionResponse");
         $($executionResponse[$executionResponse.length - 1])
             .JSONView(jsonValue, {collapsed: false});
-
+        $('html, body').scrollTop($(document).height());
     }
 
     output(...args) {
         this.term[this.outputType](...args);
+        $('html, body').scrollTop($(document).height());
     }
 
 }

@@ -9131,6 +9131,7 @@ var Terminal = function () {
 
             var $executionResponse = $(".executionResponse");
             $($executionResponse[$executionResponse.length - 1]).JSONView(jsonValue, { collapsed: false });
+            $('html, body').scrollTop($(document).height());
         }
     }, {
         key: 'output',
@@ -9138,6 +9139,7 @@ var Terminal = function () {
             var _term;
 
             (_term = this.term)[this.outputType].apply(_term, arguments);
+            $('html, body').scrollTop($(document).height());
         }
     }]);
     return Terminal;
@@ -9206,7 +9208,7 @@ jQuery(function ($) {
     }, {
         greetings: 'Google Chrome Database Extension ',
         name: 'db_sole',
-        height: 340,
+        height: 'auto',
         prompt: 'DBSole> '
     });
 });

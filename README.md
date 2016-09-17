@@ -11,3 +11,5 @@ Access your database from your Google chrome DevTool. No need to switch over ter
   - If the connection is successfull then you  can access database from chrome
 
 #Demo
+  [<img src="demo.gif">](http://google.com.au/)
+
